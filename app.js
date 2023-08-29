@@ -9,3 +9,16 @@ function ordenarPropriedades() {
         console.log(propriedade);
     }
 }
+function capturarPropriedades() {
+    while (true) {
+        const propriedade = promptSync('Digite uma propriedade de CSS (ou SAIR para encerrar): ');
+        if (propriedade.toLowerCase() === 'sair') {
+            ordenarPropriedades();
+            break;
+        } else {
+            propriedades.push(propriedade);
+        }
+    }
+}
+
+capturarPropriedades();
