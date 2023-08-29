@@ -1,0 +1,16 @@
+{ 
+  "type": "module",
+  "name": "ordenador-css",
+  "version": "1.0.0",
+  "description": "Uma ferramenta de linha de comando para ordenar propriedades de CSS de maneira eficiente e manter seu código organizado.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "pan-ti",
+  "license": "MIT",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
